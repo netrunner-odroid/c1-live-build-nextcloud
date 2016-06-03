@@ -26,7 +26,7 @@ echo "I: Format is $FMT"
 lb config \
  --archive-areas 'main contrib non-free' \
  --backports true \
- --distribution stable \
+ --distribution jessie \
  --binary-images hdd \
  --mode debian \
  --apt-source-archives false \
